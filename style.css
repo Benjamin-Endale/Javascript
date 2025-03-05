@@ -1,0 +1,19 @@
+.Mainheader {
+  display: flex;
+  justify-content: center;
+}
+
+.Mainheader__temp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Mainheader__btn {
+  color: white;
+  background-color: red;
+  padding: 10px;
+  border: 1px hidden;
+  border-radius: 5px;
+}
