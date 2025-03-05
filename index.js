@@ -1,5 +1,7 @@
-let y = alert(8);
-var x = window.alert(8);
+const car = {
+  brand: "Ford",
+  model: "Fiesta",
+  color: "blue",
+};
 
-console.log(x);
-console.log(y);
+console.log(car["brand"]);
