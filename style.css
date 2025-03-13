@@ -1,19 +1,42 @@
-.Mainheader {
+body {
+  background-color: wheat;
+  height: 100vh;
   display: flex;
-  justify-content: center;
-}
-
-.Mainheader__temp {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0;
 }
 
-.Mainheader__btn {
-  color: white;
-  background-color: red;
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.main_header {
+  padding: 0px;
+}
+
+#Header {
+  text-align: center;
+  font-size: 2rem;
+  margin: 50px;
+  color: chocolate;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.list_items {
+  list-style-type: none;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.Items {
+  border: 1px solid burlywood;
+  margin: 0px;
+  margin-bottom: 0.3rem;
   padding: 10px;
-  border: 1px hidden;
   border-radius: 5px;
+  color: burlywood;
+  font-family: Arial, Helvetica, sans-serif;
 }
