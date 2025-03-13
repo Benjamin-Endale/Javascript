@@ -1,11 +1,21 @@
-const car = {
-  brand: "Ford",
-  model: "Fiesta",
-  color: "blue",
-  Engine: {
-    type: "V8",
-    horsePower: "500",
-  },
-};
+// getelementbyid
+//getelementbytagname
+//getelementbyclassname
+//queryselector
+//queryselectorall
 
-console.log(car.Engine["type"]);
+const myItems = document.querySelectorAll(".list_items");
+console.log(myItems);
+
+for (i = 0; i < myItems.length; i++) {
+  myItems[i].style.fontSize = "1rem";
+}
+
+const ul = document.querySelector("ul");
+const li = document.createElement("li");
+
+ul.append(li);
+
+li.innerText = "Attack On Titan";
+
+li.setAttribute("class", "list_items");
