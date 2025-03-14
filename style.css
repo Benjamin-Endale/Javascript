@@ -10,10 +10,42 @@ body {
 .container {
   display: flex;
   justify-content: center;
+  gap: 2rem;
 }
 
 .main_header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
   padding: 0px;
+  margin: 0px;
+}
+
+.Example {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 20px;
+}
+
+.Example__container {
+  border: 1px solid burlywood;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 30px;
+  margin-top: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border-right: hidden;
+  border-top: hidden;
+}
+
+#Enterbtn {
+  border-radius: 5px;
+  border: 1px solid whitesmoke;
+  background-color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #Header {
@@ -33,4 +65,6 @@ body {
   color: chocolate;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  border-bottom: hidden;
+  border-top: hidden;
 }
