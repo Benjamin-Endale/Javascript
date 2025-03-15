@@ -35,9 +35,18 @@
 // box_1.addEventListener("mouseover", changeBgcolor);
 
 const reveal = document.querySelector(".Reveal");
-const content = document.guerySelector(".content");
+const content = document.querySelector(".content");
+const revealBtn = document.querySelector("#Revealbtn");
+const originalText = revealBtn.innerText;
 
 function revealContent() {
-  if (content.classList.contains("Reveal")) {
+  if (content.classList.contains("open")) {
+    content.classList.remove("open");
+    revealBtn.innerText = originalText;
+  } else {
+    content.classList.add("open");
+    revealBtn.innerText = "Show less";
   }
 }
+
+reveal.addEventListener("click", revealContent);
