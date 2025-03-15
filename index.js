@@ -33,3 +33,11 @@
 // }
 
 // box_1.addEventListener("mouseover", changeBgcolor);
+
+const reveal = document.querySelector(".Reveal");
+const content = document.guerySelector(".content");
+
+function revealContent() {
+  if (content.classList.contains("Reveal")) {
+  }
+}
