@@ -32,4 +32,4 @@ function changeBgcolor() {
   box_1.style.backgroundColor("black");
 }
 
-box_1.addEventListener("mouseover", changeBgcolor());
+box_1.addEventListener("click", changeBgcolor);
