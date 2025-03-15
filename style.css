@@ -97,9 +97,12 @@ body {
 }
 
 .hidden_content {
+  display: flex;
   border: 1px solid burlywood;
   border-radius: 15px;
   max-width: 600px;
-  text-align: center;
+  height: 75%;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  align-items: center;
 }

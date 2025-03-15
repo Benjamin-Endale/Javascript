@@ -35,7 +35,7 @@
 // box_1.addEventListener("mouseover", changeBgcolor);
 
 const reveal = document.querySelector(".Reveal");
-const content = document.querySelector(".content");
+const content = document.querySelector(".hidden_content");
 const revealBtn = document.querySelector("#Revealbtn");
 const originalText = revealBtn.innerText;
 
