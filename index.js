@@ -26,10 +26,10 @@
 
 // console.log(ul);
 
-const box_1 = document.querySelector(".box-1");
+// const box_1 = document.querySelector(".box-1");
 
-function changeBgcolor() {
-  box_1.style.backgroundColor("black");
-}
+// function changeBgcolor() {
+//   box_1.style.backgroundColor = "burlywood";
+// }
 
-box_1.addEventListener("click", changeBgcolor);
+// box_1.addEventListener("mouseover", changeBgcolor);
