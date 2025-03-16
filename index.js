@@ -50,3 +50,5 @@ function revealContent() {
 }
 
 reveal.addEventListener("click", revealContent);
+
+document.querySelector;

@@ -5,14 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <style>
-      .hidden_content {
-        display: none;
-      }
-      .hidden_content.open {
-        display: block;
-      }
-    </style>
   </head>
   <body>
     <div class="container">
@@ -26,21 +18,23 @@
       </ul>
       <div class="Example">
         <div class="Example__container box-1">
-          <h4>Example 1</h4>
+          <h4 class="Exampletxt">Example 1</h4>
           <button id="Enterbtn" type="button">Enter</button>
         </div>
         <div class="Example__container box-2">
-          <h4>Example 1</h4>
+          <h4 class="Exampletxt">Example 1</h4>
           <button id="Enterbtn" type="button">Enter</button>
         </div>
         <div class="Example__container box-3">
-          <h4>Example 1</h4>
+          <h4 class="Exampletxt">Example 1</h4>
           <button id="Enterbtn" type="button">Enter</button>
         </div>
       </div>
       <div class="EventListner">
         <div class="Reveal">
-          <button id="Revealbtn" type="button">Reveal More</button>
+          <button class="Exampletxt" id="Revealbtn" type="button">
+            Reveal More
+          </button>
         </div>
         <div class="hidden_content">
           <h4 class="content">
@@ -52,6 +46,15 @@
             voluptate quo sit omnis ratione corporis tenetur voluptatum alias
             excepturi.
           </h4>
+        </div>
+      </div>
+      <div class="Event_propagation">
+        <div class="div_1">
+          2
+          <div class="div_2">
+            1
+            <button class="targetBtn">CLick</button>
+          </div>
         </div>
       </div>
     </div>
