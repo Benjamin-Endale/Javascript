@@ -1,10 +1,16 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Playwrite HU", cursive;
+  font-optical-sizing: auto;
+}
+
 body {
   background-color: wheat;
   height: 100vh;
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 5rem;
 }
 
 .container {
@@ -34,7 +40,7 @@ body {
 
 .Exampletxt {
   color: chocolate;
-  font-weight: 400;
+  font-weight: bold;
 }
 .Example__container {
   border: 1px solid burlywood;
@@ -44,7 +50,6 @@ body {
   gap: 2rem;
   padding: 30px;
   margin-top: 4rem;
-  font-family: Arial, Helvetica, sans-serif;
   border-right: hidden;
   border-top: hidden;
   border-width: 3px;
@@ -54,26 +59,25 @@ body {
   border-radius: 5px;
   border: 1px solid chocolate;
   background-color: inherit;
-  font-family: Arial, Helvetica, sans-serif;
   border-width: 3px;
 }
 
 #Header {
   text-align: center;
   font-size: 2rem;
-  margin: 50px;
   color: chocolate;
-  font-family: Arial, Helvetica, sans-serif;
+
   font-weight: bold;
+  margin-bottom: 50px;
 }
 
 .list_items {
   list-style-type: none;
   border: 1px solid burlywood;
   padding: 10px;
-  color: chocolate;
+  color: black;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+
   border-bottom: hidden;
   border-top: hidden;
   border-width: 3px;
@@ -83,14 +87,13 @@ body {
   display: flex;
   align-items: center;
   gap: 2rem;
-  width: 20%;
-  height: 18%;
+  width: 500px;
+  height: 250px;
 }
 
 #Revealbtn {
   border-style: none;
   background-color: inherit;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
   margin: auto;
 }
@@ -112,7 +115,6 @@ body {
   border-radius: 15px;
   max-width: 600px;
   height: 75%;
-  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   border-width: 3px;
 }
@@ -161,6 +163,8 @@ body {
   border: none;
   background-color: inherit;
   font-style: italic;
+  color: chocolate;
+  font-weight: bold;
 }
 
 .EventDelegation {
@@ -179,32 +183,29 @@ body {
 .list_itemsD {
   list-style-type: none;
   padding: 10px;
-  color: chocolate;
+  color: black;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2%;
+  margin-top: 4rem;
 }
 
 .Navtxt {
   list-style: none;
   border: 1px solid burlywood;
-  padding: 15px;
+  padding: 20px;
   border-radius: 20px;
   border-width: 2.5px;
   border-bottom: none;
-  margin: auto;
 }
 
 #navLink {
   text-decoration: none;
   color: chocolate;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.4rem;
   font-style: italic;
 }
