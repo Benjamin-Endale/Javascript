@@ -1,8 +1,8 @@
-// getelementbyid
-//getelementbytagname
-//getelementbyclassname
-//queryselector
-//queryselectorall
+// // getelementbyid;
+// // getelementbytagname;
+// // getelementbyclassname;
+// // queryselector;
+// // queryselectorall;
 
 // const myItems = document.querySelectorAll(".list_items");
 // console.log(myItems);
@@ -34,21 +34,48 @@
 
 // box_1.addEventListener("mouseover", changeBgcolor);
 
-const reveal = document.querySelector(".Reveal");
-const content = document.querySelector(".hidden_content");
-const revealBtn = document.querySelector("#Revealbtn");
-const originalText = revealBtn.innerText;
+// const reveal = document.querySelector(".Reveal");
+// const content = document.querySelector(".hidden_content");
+// const revealBtn = document.querySelector("#Revealbtn");
+// const originalText = revealBtn.innerText;
 
-function revealContent() {
-  if (content.classList.contains("open")) {
-    content.classList.remove("open");
-    revealBtn.innerText = originalText;
-  } else {
-    content.classList.add("open");
-    revealBtn.innerText = "Show less";
-  }
-}
+// function revealContent() {
+//   if (content.classList.contains("open")) {
+//     content.classList.remove("open");
+//     revealBtn.innerText = originalText;
+//   } else {
+//     content.classList.add("open");
+//     revealBtn.innerText = "Show less";
+//   }
+// }
 
-reveal.addEventListener("click", revealContent);
+// reveal.addEventListener("click", revealContent);
 
-document.querySelector;
+// document.querySelector;
+
+// // Event Propagation
+
+// document.querySelector(".div_2").addEventListener(
+//   "click",
+//   function () {
+//     console.log("Div 2");
+//   },
+//   false
+// );
+// document.querySelector(".div_1").addEventListener(
+//   "click",
+//   function () {
+//     console.log("Div 2");
+//   },
+//   false
+// );
+
+// document.querySelector(".targetBtn").addEventListener(
+//   "click",
+//   function (e) {
+//     console.log(e.target);
+//   },
+//   false
+// );
+
+// // Event Delegation
