@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: wheat;
+}
+
+.ben {
+  font-family: "Playwrite HU", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+}
