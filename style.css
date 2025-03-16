@@ -49,7 +49,7 @@ body {
 
 #Enterbtn {
   border-radius: 5px;
-  border: 1px solid whitesmoke;
+  border: 1px solid chocolate;
   background-color: inherit;
   font-family: Arial, Helvetica, sans-serif;
   border-width: 3px;
@@ -156,4 +156,25 @@ body {
   border: none;
   background-color: inherit;
   font-style: italic;
+}
+
+.EventDelegation {
+  border: 1px solid burlywood;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-width: 3px;
+  border-radius: 15px;
+}
+
+.EventD {
+  padding: 0px;
+}
+
+.list_itemsD {
+  list-style-type: none;
+  padding: 10px;
+  color: chocolate;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
