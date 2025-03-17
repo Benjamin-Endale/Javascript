@@ -15,18 +15,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 4rem;
-  font-size: 1.4rem;
+  margin-top: 2.68rem;
+  font-size: 0.938rem;
 }
 
 #navtxt {
   text-decoration: none;
   color: chocolate;
-  border: 1px solid burlywood;
-  padding: 20px;
-  border-radius: 20px;
-  border-width: 2.5px;
+  border: 1px solid chocolate;
+  padding: 0.8375rem;
+  border-radius: 0.8375rem;
+  border-width: 2.01px;
   border-bottom: none;
+  border-right: none;
+  font-size: 16.02px;
+  border-left: none;
 }
 
 .container {
@@ -36,39 +39,41 @@ body {
   justify-content: center;
   height: inherit;
   width: inherit;
-  margin-top: -5rem;
-  gap: 3rem;
+  margin-top: -3.35rem;
+  gap: 2.01rem;
 }
 
 .main_container {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.005rem;
   align-items: center;
   justify-content: center;
-  height: 200px;
+  height: 8.375rem;
 }
 
 .text_area {
-  width: 600px;
-  line-height: 2.2;
+  width: 25.125rem;
+  line-height: 1.474;
   text-align: center;
+  font-size: 0.67rem;
 }
 
 #Quote {
-  font-size: 1.2rem;
+  font-size: 0.804rem;
 }
 
 #Btn {
   border: 1px solid chocolate;
-  border-width: 3px;
-  border-radius: 10px;
+  border-width: 0.125625rem;
+  border-radius: 0.41875rem;
   background-color: inherit;
-  padding: 8px;
+  padding: 0.335rem;
   border-left: none;
   border-right: none;
-  font-size: 1rem;
+  font-size: 0.67rem;
 }
 #persontxt {
   font-weight: bold;
+  font-size: 0.67rem;
 }

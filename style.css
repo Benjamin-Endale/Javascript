@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 21.44px;
   /* border: 1px solid black; */
   height: inherit;
   width: inherit;
@@ -33,90 +33,92 @@ body {
 
 .Example {
   display: flex;
-  gap: 2rem;
+  gap: 21.44px;
   align-items: center;
-  padding: 20px;
+  padding: 13.4px;
 }
 
 .Exampletxt {
   color: chocolate;
   font-weight: bold;
+  font-size: 10.72px;
 }
 .Example__container {
   border: 1px solid burlywood;
-  border-radius: 15px;
+  border-radius: 10.05px;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  padding: 30px;
-  margin-top: 4rem;
+  gap: 21.44px;
+  padding: 20.1px;
+  margin-top: 42.88px;
   border-right: hidden;
   border-top: hidden;
-  border-width: 3px;
+  border-width: 2.01px;
 }
 
 #Enterbtn {
   border-radius: 5px;
   border: 1px solid chocolate;
   background-color: inherit;
-  border-width: 3px;
+  border-width: 2.01px;
+  font-size: 10.72px;
 }
 
 #Header {
   text-align: center;
-  font-size: 2rem;
+  font-size: 21.44px;
   color: chocolate;
 
   font-weight: bold;
-  margin-bottom: 50px;
+  margin-bottom: 33.5px;
 }
 
 .list_items {
   list-style-type: none;
   border: 1px solid burlywood;
-  padding: 10px;
+  padding: 6.7px;
   color: black;
   text-align: center;
-
+  font-size: 10.72px;
   border-bottom: hidden;
   border-top: hidden;
-  border-width: 3px;
+  border-width: 2.01px;
 }
 
 .EventListner {
   display: flex;
   align-items: center;
-  gap: 2rem;
-  width: 500px;
-  height: 250px;
+  gap: 21.44px;
+  width: 335px;
+  height: 167.5px;
 }
 
 #Revealbtn {
   border-style: none;
   background-color: inherit;
-  font-size: 1rem;
+  font-size: 10.72px;
   margin: auto;
 }
 
 .Reveal {
   border: 1px solid burlywood;
-  border-radius: 15px;
+  border-radius: 10.05px;
   display: flex;
   align-items: center;
   width: 100%;
   text-align: center;
-  border-width: 3px;
+  border-width: 2.01px;
   height: 100%;
 }
 
 .hidden_content {
   display: none;
   border: 1px solid burlywood;
-  border-radius: 15px;
-  max-width: 600px;
+  border-radius: 10.05px;
+  max-width: 402px;
   height: max-content;
   text-align: center;
-  border-width: 3px;
+  border-width: 2.01px;
 }
 .open {
   display: flex;
@@ -131,32 +133,34 @@ body {
   width: 8%;
   align-items: center;
   justify-content: center;
-  border-radius: 15px;
-  border-width: 3px;
-  padding: 20px;
+  border-radius: 10.05px;
+  border-width: 2.01px;
+  padding: 13.4px;
   flex: wrap;
 }
 
 .div_1 {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2.01px;
   align-items: center;
   border: 1px solid burlywood;
-  padding: 50px;
-  border-radius: 15px;
-  border-width: 3px;
+  padding: 33.5px;
+  border-radius: 10.05px;
+  border-width: 2.01px;
+  font-size: 10.72px;
 }
 
 .div_2 {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 21.44px;
   align-items: center;
   border: 1px solid burlywood;
-  padding: 15px;
-  border-radius: 15px;
-  border-width: 3px;
+  padding: 10.05px;
+  border-radius: 10.05px;
+  border-width: 2.01px;
+  font-size: 10.72px;
 }
 
 .targetBtn {
@@ -164,6 +168,7 @@ body {
   background-color: inherit;
   font-style: italic;
   color: chocolate;
+  font-size: 10.72px;
   font-weight: bold;
 }
 
@@ -172,8 +177,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-width: 3px;
-  border-radius: 15px;
+  border-width: 2.01px;
+  border-radius: 10.05px;
 }
 
 .EventD {
@@ -182,30 +187,49 @@ body {
 
 .list_itemsD {
   list-style-type: none;
-  padding: 10px;
+  padding: 6.7px;
   color: black;
   text-align: center;
+  font-size: 10.72px;
 }
 
 .navbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 4rem;
+  margin-top: 42.88px;
 }
 
 .Navtxt {
   list-style: none;
-  border: 1px solid burlywood;
-  padding: 20px;
-  border-radius: 20px;
-  border-width: 2.5px;
-  border-bottom: none;
+  padding: 13.4px;
 }
 
 #navLink {
   text-decoration: none;
   color: chocolate;
-  font-size: 1.4rem;
+  font-size: 16.02px;
   font-style: italic;
+  font-weight: 400;
+}
+
+.navbarM {
+  display: flex;
+  border: 1px solid chocolate;
+  border-radius: 16.75px;
+  border-width: 2.01px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+.nav1 {
+  border-right: none;
+}
+.nav2 {
+  border-left: none;
+}
+
+.content {
+  font-size: 10.72px;
 }
