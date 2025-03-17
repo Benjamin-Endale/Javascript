@@ -1,0 +1,67 @@
+* {
+  background-color: wheat;
+  box-sizing: border-box;
+  font-family: "Playwrite HU", cursive;
+  font-optical-sizing: auto;
+  margin: 0;
+}
+
+body {
+  position: relative;
+}
+
+.modal_container {
+  border: 1px solid chocolate;
+  width: max-content;
+  padding: 20px;
+  border-radius: 10px;
+  border-width: 2px;
+  position: absolute;
+  top: 500px;
+  left: 500px;
+}
+
+.modal_container:hover {
+  transform: translateY(-10px);
+  transition-duration: 1.2s;
+  background-color: chocolate;
+  color: white;
+}
+
+#FindBtn {
+  border: none;
+  background-color: inherit;
+  color: inherit;
+  border-radius: 5px;
+}
+
+@keyframes findinganim {
+  from {
+    transform: translateY(-450px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.missing_Container {
+  border: 1px solid chocolate;
+  width: max-content;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 20px;
+  gap: 1.5rem;
+  align-items: center;
+  position: absolute;
+  left: 800px;
+  top: 350px;
+  animation-name: findinganim;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
+.xBtn {
+  font-size: 20px;
+}
