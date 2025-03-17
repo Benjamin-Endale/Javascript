@@ -40,6 +40,7 @@ body {
   position: absolute;
   top: 500px;
   left: 500px;
+  font-size: 0.8rem;
 }
 
 .modal_container:hover {
@@ -47,13 +48,6 @@ body {
   transition-duration: 1.2s;
   background-color: chocolate;
   color: white;
-}
-
-#FindBtn {
-  border: none;
-  background-color: inherit;
-  color: inherit;
-  border-radius: 5px;
 }
 
 @keyframes findinganim {
