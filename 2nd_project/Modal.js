@@ -1,6 +1,7 @@
-const findBtn = document.querySelector(".modal_container");
+const findBtn = document.querySelector("#FindBtn");
 const missingBox = document.querySelector(".missing_Container");
 const closeBtn = document.querySelector(".xBtn");
+const missingTxt = document.querySelector(".missingTxt");
 
 findBtn.addEventListener("click", function () {
   missingBox.style.display = "flex";
@@ -11,7 +12,11 @@ closeBtn.addEventListener("click", function () {
 });
 
 window.addEventListener("click", function (e) {
-  if ((e.target !== missingBox) & (e.target !== findBtn)) {
+  if (
+    (e.target !== missingBox) &
+    (e.target !== findBtn) &
+    (e.target !== missingTxt)
+  ) {
     missingBox.style.display = "none";
   }
 });

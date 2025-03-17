@@ -32,19 +32,20 @@ body {
 }
 
 .modal_container {
+  position: absolute;
+  top: 500px;
+  left: 500px;
+}
+
+#FindBtn {
   border: 1px solid chocolate;
   width: max-content;
   padding: 20px;
   border-radius: 10px;
   border-width: 2px;
-  position: absolute;
-  top: 500px;
-  left: 500px;
-  font-size: 0.8rem;
-  font-weight: bold;
 }
 
-.modal_container:hover {
+#FindBtn:hover {
   transform: translateY(-10px);
   transition-duration: 1.2s;
   background-color: chocolate;
