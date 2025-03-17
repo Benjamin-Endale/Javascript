@@ -40,7 +40,7 @@ body {
     transform: translateY(-450px);
   }
   to {
-    transform: translateY(0px);
+    transform: translateY(0);
   }
 }
 
@@ -60,8 +60,18 @@ body {
   animation-name: findinganim;
   animation-duration: 2s;
   animation-timing-function: ease;
+  display: none;
 }
 
 .xBtn {
+  border: 1px solid chocolate;
+  border-radius: 5px;
+  border-right: none;
+  border-left: none;
   font-size: 20px;
+}
+.xBtn:hover {
+  background-color: chocolate;
+  color: white;
+  transition-duration: 1s;
 }
