@@ -10,6 +10,27 @@ body {
   position: relative;
 }
 
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.68rem;
+  font-size: 0.938rem;
+}
+
+#navtxt {
+  text-decoration: none;
+  color: chocolate;
+  border: 1px solid chocolate;
+  padding: 0.8375rem;
+  border-radius: 0.8375rem;
+  border-width: 2.01px;
+  border-bottom: none;
+  border-right: none;
+  font-size: 16.02px;
+  border-left: none;
+}
+
 .modal_container {
   border: 1px solid chocolate;
   width: max-content;
@@ -61,6 +82,7 @@ body {
   animation-duration: 2s;
   animation-timing-function: ease;
   display: none;
+  z-index: 1;
 }
 
 .xBtn {
