@@ -41,6 +41,7 @@ body {
   top: 500px;
   left: 500px;
   font-size: 0.8rem;
+  font-weight: bold;
 }
 
 .modal_container:hover {
