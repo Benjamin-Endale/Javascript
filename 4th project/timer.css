@@ -10,6 +10,27 @@ body {
   height: 100vh;
 }
 
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.68rem;
+  font-size: 0.938rem;
+}
+
+#navtxt {
+  text-decoration: none;
+  color: chocolate;
+  border: 1px solid chocolate;
+  padding: 0.8375rem;
+  border-radius: 0.8375rem;
+  border-width: 2.01px;
+  border-bottom: none;
+  border-right: none;
+  font-size: 16.02px;
+  border-left: none;
+}
+
 .main_Header {
   display: flex;
   justify-content: center;
@@ -31,8 +52,10 @@ body {
   gap: 2rem;
   border: 3px solid burlywood;
   border-bottom: none;
-  border-left: none;
-  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  padding-left: 20px;
+  padding-right: 20px;
 
   border-radius: 10px;
   height: 60px;
@@ -58,13 +81,19 @@ body {
   color: chocolate;
 }
 
-.icons1 {
-  font-size: 2rem;
-  color: chocolate;
+.Twodots {
+  text-align: center;
+  line-height: 1;
 }
 
-.icons2 {
-  font-size: 2.4rem;
-  padding-top: 2.42px;
-  color: chocolate;
+.icons1 {
+  font-size: 2rem;
+  color: rgb(200, 139, 95);
+  transition: font-size 0.3s ease-in-out, color 1s ease;
+}
+
+.icons1:hover {
+  color: rgb(211, 97, 16);
+  font-size: 2.6rem;
+  /* transform: translateY(-3px); */
 }
