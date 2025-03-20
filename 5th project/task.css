@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: wheat;
+}
+
+.main_container {
+  height: 100vh;
+  border: 1px solid red;
+  font-family: "Spirax", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  color: chocolate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.68rem;
+  font-size: 0.938rem;
+}
+
+#navtxt {
+  text-decoration: none;
+  color: chocolate;
+  border: 1px solid chocolate;
+  padding: 0.8375rem;
+  border-radius: 0.8375rem;
+  border-width: 2.01px;
+  font-family: "Playwrite HU", cursive;
+  font-optical-sizing: auto;
+  border-bottom: none;
+  border-right: none;
+  font-size: 16.02px;
+  border-left: none;
+}
