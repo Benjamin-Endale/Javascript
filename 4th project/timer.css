@@ -95,7 +95,6 @@ body {
   font-size: 1.28rem;
   color: rgb(200, 139, 95);
   transition: font-size 0.2s ease, color 1s ease;
-  transition-delay: 0.3s;
 }
 
 .icons1:hover {
