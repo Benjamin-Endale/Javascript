@@ -45,21 +45,21 @@ body {
 
 .container {
   display: flex;
-  border: 1px solid red;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   height: 100vh;
   position: relative;
   overflow: hidden;
-  position: relative;
+  gap: 15rem;
 }
 
 .main_container {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   gap: 3rem;
-  margin-left: 10%;
+  height: 100%;
 }
 
 .content_container {
@@ -80,9 +80,9 @@ body {
 
 #txtArea {
   border: 2.5px solid chocolate;
-  padding: 10px;
-  border-radius: 7px;
-  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  width: 300px;
 }
 
 ::placeholder {
@@ -123,9 +123,9 @@ body {
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
-  position: absolute;
-  right: 20%;
-  height: 500px;
+  /* position: absolute; */
+  /* right: 20%; */
+  max-height: 500px;
   overflow-y: scroll;
   clip-path: inset(0 round 15px);
 }
@@ -147,7 +147,6 @@ body {
 
 .taskContainer {
   display: flex;
-  border: 1px solid red;
   align-items: center;
   justify-content: space-between;
   width: 100%;

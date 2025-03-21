@@ -33,4 +33,11 @@ addBtn.addEventListener("click", function () {
     container.appendChild(taskContainer);
   }
   textarea.value = null;
+
+  //checkbtn
+
+  checkBtn.addEventListener("click", function () {
+    const list = checkBtn.parentNode.previousSibling;
+    list.style.textDecoration = "line-through";
+  });
 });
