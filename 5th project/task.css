@@ -45,20 +45,21 @@ body {
 
 .container {
   display: flex;
-  justify-content: center;
+  border: 1px solid red;
   align-items: center;
+  justify-content: space-between;
   height: 100vh;
+  position: relative;
+  overflow: hidden;
   position: relative;
 }
 
 .main_container {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  top: 25%;
   gap: 3rem;
+  margin-left: 10%;
 }
 
 .content_container {
@@ -94,10 +95,89 @@ body {
   border-radius: 5px;
   border-left: none;
   border-right: none;
+  transition: background-color 1.5s ease, color 1.5s ease;
 }
+
+#addBtn:hover {
+  background-color: chocolate;
+  transition-duration: 1.5s;
+  color: white;
+}
+
+.plusIcon {
+  background-color: inherit;
+  padding: 0px;
+}
+
+/* From Javacript */
+
 .added_tasks {
+  border: 2px solid burlywood;
   display: flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  border-bottom: none;
+  border-top: none;
+  border-radius: 15px;
+  width: 400px;
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
+  position: absolute;
+  right: 20%;
+  height: 500px;
+  overflow-y: scroll;
+  clip-path: inset(0 round 15px);
+}
+
+.added_tasks::-webkit-scrollbar {
+  width: 5px;
+}
+
+.added_tasks::-webkit-scrollbar-thumb {
+  background-color: burlywood;
+  border-radius: 5px;
+  width: 5px;
+}
+
+.added_tasks::-webkit-scrollbar-track {
+  height: 100px;
+  overflow-y: hidden;
+}
+
+.taskContainer {
+  display: flex;
+  border: 1px solid red;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.taskButtons {
+  display: flex;
+  gap: 1.5rem;
+  padding: 10px;
+}
+
+.taskList {
+  list-style: none;
+  font-size: 1rem;
+}
+
+.checkBtn {
+  border-radius: 5px;
+  border: 2px solid chocolate;
+  padding: 5px;
+  border-left: none;
+  border-right: none;
+  font-size: 1rem;
+}
+
+.deleteBtn {
+  border-radius: 5px;
+  border: 2px solid chocolate;
+  padding: 5px;
+  border-left: none;
+  border-right: none;
+  font-size: 1rem;
 }
