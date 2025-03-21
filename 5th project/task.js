@@ -64,7 +64,7 @@ addBtn.addEventListener("click", function () {
   //edit Btn
   editBtn.addEventListener("click", function () {
     if (li.querySelector("#Edit")) {
-      editBtn.innerHTML = '<i class=" fa-solid fa-edit"></i>';
+      editBtn.innerHTML = '<i class=" editBtn1 fa-solid fa-edit"></i>';
       const textCont = document.querySelector("#Edit");
       const updatedT = textCont.value;
       const originalText = li.getAttribute("data-original");
