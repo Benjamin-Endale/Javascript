@@ -64,6 +64,7 @@ addBtn.addEventListener("click", function () {
   //edit Btn
   editBtn.addEventListener("click", function () {
     if (li.querySelector("#Edit")) {
+      editBtn.innerHTML = '<i class=" fa-solid fa-edit"></i>';
       const textCont = document.querySelector("#Edit");
       const updatedT = textCont.value;
       const originalText = li.getAttribute("data-original");
@@ -74,6 +75,7 @@ addBtn.addEventListener("click", function () {
         li.setAttribute("data-original", updatedT);
       }
     } else {
+      editBtn.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
       const originalText = li.innerText;
       li.setAttribute("data-original", originalText);
       li.innerHTML = `<input id = "Edit" type="text" placeholder="Edit task" value = "${originalText}" />`;

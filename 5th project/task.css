@@ -200,24 +200,39 @@ body {
   border: none;
   font-size: 1rem;
   transition: transform 1.2 ease-in-out, color 1.2s ease;
-  width: 26px;
-  height: 25px;
 }
 
 .crossbtn:hover {
   color: chocolate;
   transform: rotate(360deg);
   transition-duration: 2s;
-  transition-delay: 0.2s;
+  transition-delay: 0.3s;
 }
 
 .editBtn {
   border: none;
   font-size: 1rem;
+  transition: transform 1.2 ease-in-out, color 1.2s ease;
+}
+
+.editBtn:hover {
+  color: chocolate;
+  transition-duration: 1.2s;
 }
 
 #Edit {
   border: 1px solid chocolate;
   border-radius: 7px;
   padding: 5px;
+}
+
+.editBtn1 {
+  font-size: 1rem;
+  transition: transform 1.2 ease-in-out, color 1.2s ease;
+  transition-delay: 0.4s;
+}
+
+.editBtn1:hover {
+  color: chocolate;
+  transition-duration: 1.2s;
 }
