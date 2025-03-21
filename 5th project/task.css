@@ -154,8 +154,13 @@ body {
 
 .taskButtons {
   display: flex;
-  gap: 1.5rem;
-  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(209, 160, 96);
+  padding: 5px;
+  border-left: none;
+  border-right: none;
+  font-size: 1rem;
+  gap: 2rem;
 }
 
 .taskList {
@@ -164,19 +169,35 @@ body {
 }
 
 .checkBtn {
-  border-radius: 5px;
-  border: 2px solid chocolate;
-  padding: 5px;
-  border-left: none;
-  border-right: none;
+  border: none;
+  width: 16px;
+  height: 16px;
   font-size: 1rem;
+  transition: color 1.2s ease;
+}
+.checkBtn:hover {
+  color: chocolate;
 }
 
 .deleteBtn {
-  border-radius: 5px;
-  border: 2px solid chocolate;
-  padding: 5px;
-  border-left: none;
-  border-right: none;
+  border: none;
   font-size: 1rem;
+  transition: color 1.2s ease;
+}
+
+.deleteBtn:hover {
+  color: chocolate;
+}
+
+.crossbtn {
+  border: none;
+  font-size: 1rem;
+  transition: transform 1.2 ease-in-out, color 1.2s ease;
+}
+
+.crossbtn:hover {
+  color: chocolate;
+  transform: rotate(360deg);
+  transition-duration: 2s;
+  transition-delay: 0.2s;
 }

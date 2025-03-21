@@ -16,12 +16,12 @@ addBtn.addEventListener("click", function () {
 
   const checkBtn = document.createElement("button");
   checkBtn.classList.add("checkBtn");
-  checkBtn.innerHTML = '<i class="fa-solid fa-check"></i>';
+  checkBtn.innerHTML = '<i class=" fa-solid fa-check"></i>';
 
   CDBtn.appendChild(checkBtn);
 
   const deleteBtn = document.createElement("button");
-  deleteBtn.innerHTML = '<i class="fa-solid fa-trash-can"></i>';
+  deleteBtn.innerHTML = '<i class=" fa-solid fa-trash-can"></i>';
   deleteBtn.classList.add("deleteBtn");
   CDBtn.appendChild(deleteBtn);
 
@@ -35,9 +35,21 @@ addBtn.addEventListener("click", function () {
   textarea.value = null;
 
   //checkbtn
-
+  let statusCheck = "Noline";
   checkBtn.addEventListener("click", function () {
     const list = checkBtn.parentNode.previousSibling;
-    list.style.textDecoration = "line-through";
+    if (statusCheck == "Noline") {
+      list.style.textDecoration = "line-through";
+      statusCheck = "line";
+      checkBtn.innerHTML = '<i class=" crossbtn fa-solid fa-close"></i>';
+    } else if (statusCheck == "line") {
+      list.style.textDecoration = "none";
+      statusCheck = "Noline";
+      checkBtn.innerHTML = '<i class="fa-solid fa-check"></i>';
+    }
+  });
+
+  deleteBtn.addEventListener("click", function () {
+    li.parentNode.remove();
   });
 });
