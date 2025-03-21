@@ -25,6 +25,12 @@ addBtn.addEventListener("click", function () {
   deleteBtn.classList.add("deleteBtn");
   CDBtn.appendChild(deleteBtn);
 
+  const editBtn = document.createElement("button");
+  editBtn.classList.add("editBtn");
+  editBtn.innerHTML = '<i class=" fa-solid fa-edit"></i>';
+
+  CDBtn.appendChild(editBtn);
+
   taskContainer.appendChild(CDBtn);
 
   if (textarea.value == "") {
@@ -49,7 +55,28 @@ addBtn.addEventListener("click", function () {
     }
   });
 
+  //deleteBtn
+
   deleteBtn.addEventListener("click", function () {
     li.parentNode.remove();
+  });
+
+  //edit Btn
+  editBtn.addEventListener("click", function () {
+    if (li.querySelector("#Edit")) {
+      const textCont = document.querySelector("#Edit");
+      const updatedT = textCont.value;
+      const originalText = li.getAttribute("data-original");
+      if (updatedT.trim() == "") {
+        li.innerText = originalText;
+      } else {
+        li.innerText = updatedT;
+        li.setAttribute("data-original", updatedT);
+      }
+    } else {
+      const originalText = li.innerText;
+      li.setAttribute("data-original", originalText);
+      li.innerHTML = `<input id = "Edit" type="text" placeholder="Edit task" value = "${originalText}" />`;
+    }
   });
 });
