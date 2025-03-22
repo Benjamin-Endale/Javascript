@@ -199,20 +199,20 @@ body {
 .crossbtn {
   border: none;
   font-size: 1rem;
-  transition: transform 1.2 ease-in-out, color 1.2s ease;
+  transition: transform 1.2 linear, color 1.2s ease;
 }
 
 .crossbtn:hover {
   color: chocolate;
   transform: rotate(360deg);
-  transition-duration: 2s;
   transition-delay: 0.3s;
+  transition-duration: 1.3s;
 }
 
 .editBtn {
   border: none;
   font-size: 1rem;
-  transition: transform 1.2 ease-in-out, color 1.2s ease;
+  transition: transform 1.2 ease, color 1.2s ease;
 }
 
 .editBtn:hover {
